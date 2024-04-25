@@ -1,0 +1,7 @@
+Build:
+
+g++ -o e-remove ERemove.cpp
+
+Run:
+
+./e-remove

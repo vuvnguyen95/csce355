@@ -1,0 +1,5 @@
+Build:
+g++ -o simulate simulate.cpp
+
+Run:
+./simulate

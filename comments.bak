@@ -1,0 +1,112 @@
+Comments for self-test -------- Wed Apr 24, 2024 at 13:31:7 EDT
+parsing e-remove.txt ... done
+building e-remove ...
+  g++ -o e-remove ERemove.cpp
+    succeeded
+done
+testing e-remove ...
+  Running e-remove on ./test-files/e-remove/test-e-NFA1.txt ...
+    ./e-remove ./test-files/e-remove/test-e-NFA1.txt > test-outputs/e-remove/testNFA1-out.txt 2> test-outputs/e-remove/testNFA1-err.txt
+    terminated normally
+  test-outputs/e-remove/testNFA1.txt exists -- comparing with solution NFA
+  the NFAs are the same (correct)
+  Running e-remove on ./test-files/e-remove/test-e-NFA2.txt ...
+    ./e-remove ./test-files/e-remove/test-e-NFA2.txt > test-outputs/e-remove/testNFA2-out.txt 2> test-outputs/e-remove/testNFA2-err.txt
+    terminated normally
+  test-outputs/e-remove/testNFA2.txt exists -- comparing with solution NFA
+  the NFAs are the same (correct)
+  Running e-remove on ./test-files/e-remove/test-e-NFA3.txt ...
+    ./e-remove ./test-files/e-remove/test-e-NFA3.txt > test-outputs/e-remove/testNFA3-out.txt 2> test-outputs/e-remove/testNFA3-err.txt
+    terminated normally
+  test-outputs/e-remove/testNFA3.txt exists -- comparing with solution NFA
+  the NFAs are the same (correct)
+  Running e-remove on ./test-files/e-remove/test-e-NFA4.txt ...
+    ./e-remove ./test-files/e-remove/test-e-NFA4.txt > test-outputs/e-remove/testNFA4-out.txt 2> test-outputs/e-remove/testNFA4-err.txt
+    terminated normally
+  test-outputs/e-remove/testNFA4.txt exists -- comparing with solution NFA
+  the NFAs are the same (correct)
+  Running e-remove on ./test-files/e-remove/test-e-NFA5.txt ...
+    ./e-remove ./test-files/e-remove/test-e-NFA5.txt > test-outputs/e-remove/testNFA5-out.txt 2> test-outputs/e-remove/testNFA5-err.txt
+    terminated normally
+  test-outputs/e-remove/testNFA5.txt exists -- comparing with solution NFA
+  the NFAs are the same (correct)
+  Running e-remove on ./test-files/e-remove/test-e-NFA6.txt ...
+    ./e-remove ./test-files/e-remove/test-e-NFA6.txt > test-outputs/e-remove/testNFA6-out.txt 2> test-outputs/e-remove/testNFA6-err.txt
+    terminated normally
+  test-outputs/e-remove/testNFA6.txt exists -- comparing with solution NFA
+  the NFAs are the same (correct)
+done with e-remove
+
+parsing simulate.txt ... done
+building simulate ...
+  g++ -o simulate simulate.cpp
+    succeeded
+done
+testing simulate ...
+  Running simulate on ./test-files/simulate/testNFA1.txt ...
+    ./simulate ./test-files/simulate/testNFA1.txt < ./test-files/simulate/testNFA1-strings.txt > test-outputs/simulate/testNFA1-out.txt 2> test-outputs/simulate/testNFA1-err.txt
+    terminated normally
+  test-outputs/simulate/testNFA1-out.txt exists -- comparing acc/rej outcomes with solution file
+  outcomes match (correct)
+  Running simulate on ./test-files/simulate/testNFA2.txt ...
+    ./simulate ./test-files/simulate/testNFA2.txt < ./test-files/simulate/testNFA2-strings.txt > test-outputs/simulate/testNFA2-out.txt 2> test-outputs/simulate/testNFA2-err.txt
+    terminated normally
+  test-outputs/simulate/testNFA2-out.txt exists -- comparing acc/rej outcomes with solution file
+  outcomes match (correct)
+  Running simulate on ./test-files/simulate/testNFA3.txt ...
+    ./simulate ./test-files/simulate/testNFA3.txt < ./test-files/simulate/testNFA3-strings.txt > test-outputs/simulate/testNFA3-out.txt 2> test-outputs/simulate/testNFA3-err.txt
+    terminated normally
+  test-outputs/simulate/testNFA3-out.txt exists -- comparing acc/rej outcomes with solution file
+  outcomes match (correct)
+  Running simulate on ./test-files/simulate/testNFA4.txt ...
+    ./simulate ./test-files/simulate/testNFA4.txt < ./test-files/simulate/testNFA4-strings.txt > test-outputs/simulate/testNFA4-out.txt 2> test-outputs/simulate/testNFA4-err.txt
+    terminated normally
+  test-outputs/simulate/testNFA4-out.txt exists -- comparing acc/rej outcomes with solution file
+  outcomes match (correct)
+  Running simulate on ./test-files/simulate/testNFA5.txt ...
+    ./simulate ./test-files/simulate/testNFA5.txt < ./test-files/simulate/testNFA5-strings.txt > test-outputs/simulate/testNFA5-out.txt 2> test-outputs/simulate/testNFA5-err.txt
+    terminated normally
+  test-outputs/simulate/testNFA5-out.txt exists -- comparing acc/rej outcomes with solution file
+  outcomes match (correct)
+  Running simulate on ./test-files/simulate/testNFA6.txt ...
+    ./simulate ./test-files/simulate/testNFA6.txt < ./test-files/simulate/testNFA6-strings.txt > test-outputs/simulate/testNFA6-out.txt 2> test-outputs/simulate/testNFA6-err.txt
+    terminated normally
+  test-outputs/simulate/testNFA6-out.txt exists -- comparing acc/rej outcomes with solution file
+  outcomes match (correct)
+  Running simulate on ./test-files/simulate/testNFA7.txt ...
+    ./simulate ./test-files/simulate/testNFA7.txt < ./test-files/simulate/testNFA7-strings.txt > test-outputs/simulate/testNFA7-out.txt 2> test-outputs/simulate/testNFA7-err.txt
+    terminated normally
+  test-outputs/simulate/testNFA7-out.txt exists -- comparing acc/rej outcomes with solution file
+  outcomes match (correct)
+  Running simulate on ./test-files/simulate/testNFA8.txt ...
+    ./simulate ./test-files/simulate/testNFA8.txt < ./test-files/simulate/testNFA8-strings.txt > test-outputs/simulate/testNFA8-out.txt 2> test-outputs/simulate/testNFA8-err.txt
+    terminated normally
+  test-outputs/simulate/testNFA8-out.txt exists -- comparing acc/rej outcomes with solution file
+  outcomes match (correct)
+  Running simulate on ./test-files/simulate/testNFA9.txt ...
+    ./simulate ./test-files/simulate/testNFA9.txt < ./test-files/simulate/testNFA9-strings.txt > test-outputs/simulate/testNFA9-out.txt 2> test-outputs/simulate/testNFA9-err.txt
+    terminated normally
+  test-outputs/simulate/testNFA9-out.txt exists -- comparing acc/rej outcomes with solution file
+  outcomes match (correct)
+  Running simulate on ./test-files/simulate/testNFAa.txt ...
+    ./simulate ./test-files/simulate/testNFAa.txt < ./test-files/simulate/testNFAa-strings.txt > test-outputs/simulate/testNFAa-out.txt 2> test-outputs/simulate/testNFAa-err.txt
+    terminated normally
+  test-outputs/simulate/testNFAa-out.txt exists -- comparing acc/rej outcomes with solution file
+  outcomes match (correct)
+  Running simulate on ./test-files/simulate/testNFAb.txt ...
+    ./simulate ./test-files/simulate/testNFAb.txt < ./test-files/simulate/testNFAb-strings.txt > test-outputs/simulate/testNFAb-out.txt 2> test-outputs/simulate/testNFAb-err.txt
+    terminated normally
+  test-outputs/simulate/testNFAb-out.txt exists -- comparing acc/rej outcomes with solution file
+  outcomes match (correct)
+done with simulate
+
+######################################################
+Summary for self-test:
+
+e-remove: execution always completed without errors
+  progress level 5 with 0 execution errors
+simulate: execution always completed without errors
+  progress level 5 with 0 execution errors
+
+There were a total of 0 execution errors found.
+######################################################
